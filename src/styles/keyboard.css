@@ -1,0 +1,14 @@
+.Keyboard {
+  background-color: black;
+  flex-direction: column;
+  flex-basis: 60rem;
+  height: 80rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.keysLine {
+  display: flex;
+  justify-content: space-around;
+}

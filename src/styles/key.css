@@ -1,0 +1,28 @@
+.Key {
+  background-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-bottom-color: grey;
+  border-left-color: grey;
+  border-top-color: rgb(68, 68, 68);
+  border-right-color: rgb(68, 68, 68);
+  width: 15rem;
+  height: 10rem;
+}
+
+.buttonText {
+  color: white;
+  font-size: 4rem;
+}
+
+.extraButtonsText {
+  font-size: 2.5rem;
+}
+
+.brancoButton {
+  background-color: white;
+}
+
+.brancoButtonText {
+  color: black;
+}

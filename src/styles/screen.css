@@ -1,0 +1,6 @@
+.Screen {
+  background-color: lightgray;
+  flex-basis: 100rem;
+  /* width: 50%; */
+  height: 80rem;
+}
