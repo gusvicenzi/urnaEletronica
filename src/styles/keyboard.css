@@ -4,6 +4,13 @@
   flex-basis: 60rem;
   height: 80rem;
 
+  border-width: 5px;
+  border-style: solid;
+  border-bottom-color: grey;
+  border-left-color: grey;
+  border-top-color: rgb(68, 68, 68);
+  border-right-color: rgb(68, 68, 68);
+
   display: flex;
   justify-content: space-around;
 }
