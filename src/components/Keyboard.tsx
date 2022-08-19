@@ -33,13 +33,13 @@ export const Keyboard: React.FC<React.PropsWithChildren<Props>> = props => {
         />
         <Key
           buttonText='CORRIGE'
-          textClasses='extraButtonsText'
-          buttonClasses=''
+          textClasses='extraButtonsText corrigeButtonText'
+          buttonClasses='corrigeButton'
         />
         <Key
           buttonText='CONFIRMA'
-          textClasses='extraButtonsText'
-          buttonClasses=''
+          textClasses='extraButtonsText confirmaButtonText'
+          buttonClasses='confirmaButton'
         />
       </div>
     </div>

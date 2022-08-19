@@ -8,6 +8,7 @@
   border-right-color: rgb(68, 68, 68);
   width: 15rem;
   height: 10rem;
+  font-weight: bold;
 }
 
 .buttonText {
@@ -18,11 +19,25 @@
 .extraButtonsText {
   font-size: 2.5rem;
 }
-
+/* Branco */
 .brancoButton {
   background-color: white;
 }
-
 .brancoButtonText {
+  color: black;
+}
+
+/* Corrige */
+.corrigeButton {
+  background-color: red;
+}
+.corrigeButtonText {
+  color: black;
+}
+/* Confirma */
+.confirmaButton {
+  background-color: green;
+}
+.confirmaButtonText {
   color: black;
 }
