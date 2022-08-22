@@ -1,11 +1,34 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../../styles/president.css'
+
+// Redux
+import { useSelector, useDispatch } from 'react-redux'
+import { RootState } from '../../Redux/store/store'
+// Reducers
+import { clearNumber } from '../../Redux/store/PresidentNumber.store'
 
 interface Props {
   number: string
 }
 
 export const President: React.FC<React.PropsWithChildren<Props>> = props => {
+  const dispatch = useDispatch()
+  const stage = useSelector<RootState>(state => state.stage.counter)
+
+  useEffect(() => {
+    if (stage === 0) {
+      const items = document.querySelectorAll('.dummy')
+      items?.forEach(node => node.classList.add('hide'))
+      console.log(items)
+      dispatch(clearNumber())
+    } else if (stage === 1) {
+      const items = document.querySelectorAll('.hide')
+      items.forEach(node => node.classList.remove('hide'))
+      items.forEach(node => node.classList.add('dummy'))
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [stage])
+
   return (
     <div className='President'>
       <h2 className='hide'>SEU VOTO PARA</h2>
