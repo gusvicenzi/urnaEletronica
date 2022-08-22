@@ -1,8 +1,10 @@
 import React from 'react'
+import { Button } from '../models/buttons.models'
 import '../styles/key.css'
 
 interface Props {
-  buttonText: string
+  button: Button
+  clickedButton: (button: Button) => void
   style?: {
     textClasses: string
     buttonClasses: string
@@ -12,11 +14,24 @@ interface Props {
 }
 
 export const Key: React.FC<React.PropsWithChildren<Props>> = props => {
+  const buttonAnimation = () => {
+    document
+      .getElementsByClassName(props.button.text)[0]
+      .classList.add('pressed')
+    setTimeout(() => {
+      document
+        .getElementsByClassName(props.button.text)[0]
+        .classList.remove('pressed')
+    }, 100)
+
+    props.clickedButton({ text: props.button.text })
+  }
+
   return (
     <button
-      className={'Key ' + props.buttonClasses}
-      onClick={() => console.log(props.buttonText)}>
-      <p className={'buttonText ' + props.textClasses}>{props.buttonText}</p>
+      className={`Key ${props.button.text} ${props.buttonClasses ?? ''} `}
+      onClick={buttonAnimation}>
+      <p className={'buttonText ' + props.textClasses}>{props.button.text}</p>
     </button>
   )
 }

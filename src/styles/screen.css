@@ -3,4 +3,14 @@
   flex-basis: 100rem;
   /* width: 50%; */
   height: 80rem;
+  border-width: 5px;
+  border-style: solid;
+  border-bottom-color: rgb(68, 68, 68);
+  border-left-color: rgb(68, 68, 68);
+  border-top-color: grey;
+  border-right-color: grey;
+}
+
+h1 {
+  font-size: 5rem;
 }

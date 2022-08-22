@@ -41,3 +41,11 @@
 .confirmaButtonText {
   color: black;
 }
+
+.pressed {
+  filter: brightness(0.9);
+  border-bottom-color: rgb(68, 68, 68);
+  border-left-color: rgb(68, 68, 68);
+  border-top-color: grey;
+  border-right-color: grey;
+}
