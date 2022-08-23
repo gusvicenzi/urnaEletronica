@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/urnaEletronica/static/css/main.e9179120.css",
+    "main.js": "/urnaEletronica/static/js/main.3fe5fa08.js",
+    "static/media/veralucia.jpg": "/urnaEletronica/static/media/veralucia.645269b4ff097c9bcce2.jpg",
+    "static/media/roberto.jpg": "/urnaEletronica/static/media/roberto.88f2fd71e8f1e8eb1f04.jpg",
+    "static/media/bolsonaro.jpg": "/urnaEletronica/static/media/bolsonaro.2cf07cfaf4c22b5e314c.jpg",
+    "static/media/sofia.png": "/urnaEletronica/static/media/sofia.a8fcf78e22259f68844c.png",
+    "static/media/soraya.jpg": "/urnaEletronica/static/media/soraya.2bdf362369deea6d94bd.jpg",
+    "static/media/marcal.jpg": "/urnaEletronica/static/media/marcal.a3f39d0bf67ff184fb80.jpg",
+    "static/media/davila.jpeg": "/urnaEletronica/static/media/davila.f237cb6345eb55eb32fa.jpeg",
+    "static/media/simone.jpg": "/urnaEletronica/static/media/simone.7ee0e0f80c2c5ab39c86.jpg",
+    "static/media/leonardo.jpeg": "/urnaEletronica/static/media/leonardo.ce79a6ffe9316ba34442.jpeg",
+    "static/media/lula.jpg": "/urnaEletronica/static/media/lula.7464100085a5c93c6efe.jpg",
+    "static/media/eymael.jpg": "/urnaEletronica/static/media/eymael.90a127d0f1bc84d33522.jpg",
+    "static/media/ciro.jpg": "/urnaEletronica/static/media/ciro.e897d3256eabdf18dfaa.jpg",
+    "index.html": "/urnaEletronica/index.html",
+    "main.e9179120.css.map": "/urnaEletronica/static/css/main.e9179120.css.map",
+    "main.3fe5fa08.js.map": "/urnaEletronica/static/js/main.3fe5fa08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9179120.css",
+    "static/js/main.3fe5fa08.js"
+  ]
+}
