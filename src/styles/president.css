@@ -10,6 +10,7 @@ h1 {
 
 #title {
   margin-left: 30rem;
+  /* padding-top: 5rem; */
 }
 
 h2 {
@@ -20,6 +21,12 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 li {
@@ -35,6 +42,37 @@ li {
 .imagesSection {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+}
+
+.presidentImageItem,
+.viceImageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border: solid 2px black;
+}
+
+.presidentImageItem > img:nth-child(1) {
+  height: 33rem;
+  width: 27rem;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.presidentImageItem > label:nth-child(2) {
+  font-size: 4rem;
+}
+
+.viceImageItem > img:nth-child(1) {
+  height: 22rem;
+  width: 22rem;
+  object-fit: cover;
+}
+
+.viceImageItem > label:nth-child(2) {
+  font-size: 3rem;
 }
 
 .number {
@@ -57,4 +95,65 @@ hr {
 
 .hide {
   visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .President {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  #title {
+    margin-left: 5rem;
+    /* padding-top: 5rem; */
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .presidentImageItem,
+  .viceImageItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: solid 2px black;
+  }
+
+  .presidentImageItem > img:nth-child(1) {
+    height: 14rem;
+    width: 10rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  .presidentImageItem > label:nth-child(2) {
+    font-size: 2rem;
+  }
+
+  .viceImageItem > img:nth-child(1) {
+    height: 11rem;
+    width: 9rem;
+    object-fit: cover;
+  }
+
+  .viceImageItem > label:nth-child(2) {
+    font-size: 1.4rem;
+  }
+
+  .number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 5rem;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin: 0 1rem;
+  }
 }

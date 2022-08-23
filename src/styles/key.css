@@ -49,3 +49,13 @@
   border-top-color: grey;
   border-right-color: grey;
 }
+
+@media only screen and (max-width: 600px) {
+  .Key {
+    width: 12rem;
+    height: 6.5rem;
+  }
+  .extraButtonsText {
+    font-size: 1.8rem;
+  }
+}

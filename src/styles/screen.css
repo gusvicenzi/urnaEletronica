@@ -14,3 +14,10 @@
 h1 {
   font-size: 5rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .Screen {
+    height: 55vh;
+    width: 100%;
+  }
+}

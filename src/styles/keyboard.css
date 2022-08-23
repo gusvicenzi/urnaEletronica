@@ -19,3 +19,10 @@
   display: flex;
   justify-content: space-around;
 }
+
+@media only screen and (max-width: 600px) {
+  .Keyboard {
+    /* flex-basis: 50%; */
+    height: 45%;
+  }
+}
