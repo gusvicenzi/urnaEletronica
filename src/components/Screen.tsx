@@ -1,15 +1,16 @@
 import React from 'react'
 import '../styles/screen.css'
-import { President } from './screens/President'
+// import { President } from './screens/President'
 
 interface Props {
-  number: string
+  // number: string
 }
 
 export const Screen: React.FC<React.PropsWithChildren<Props>> = props => {
   return (
     <div className='Screen'>
-      <President number={props.number} />
+      {/* <President number={props.number} /> */}
+      {props.children}
     </div>
   )
 }

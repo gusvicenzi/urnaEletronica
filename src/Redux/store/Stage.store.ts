@@ -13,9 +13,12 @@ const stage = createSlice({
       if (state.counter > 0) {
         state.counter -= 1
       }
+    },
+    clearStage(state) {
+      state.counter = 0
     }
   }
 })
 
-export const { decrement, increment } = stage.actions
+export const { decrement, increment, clearStage } = stage.actions
 export default stage.reducer
