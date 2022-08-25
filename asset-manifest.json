@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/urnaEletronica/static/css/main.e9179120.css",
-    "main.js": "/urnaEletronica/static/js/main.3fe5fa08.js",
+    "main.css": "/urnaEletronica/static/css/main.b6611227.css",
+    "main.js": "/urnaEletronica/static/js/main.6987dd57.js",
     "static/media/veralucia.jpg": "/urnaEletronica/static/media/veralucia.645269b4ff097c9bcce2.jpg",
     "static/media/roberto.jpg": "/urnaEletronica/static/media/roberto.88f2fd71e8f1e8eb1f04.jpg",
     "static/media/bolsonaro.jpg": "/urnaEletronica/static/media/bolsonaro.2cf07cfaf4c22b5e314c.jpg",
@@ -15,11 +15,11 @@
     "static/media/eymael.jpg": "/urnaEletronica/static/media/eymael.90a127d0f1bc84d33522.jpg",
     "static/media/ciro.jpg": "/urnaEletronica/static/media/ciro.e897d3256eabdf18dfaa.jpg",
     "index.html": "/urnaEletronica/index.html",
-    "main.e9179120.css.map": "/urnaEletronica/static/css/main.e9179120.css.map",
-    "main.3fe5fa08.js.map": "/urnaEletronica/static/js/main.3fe5fa08.js.map"
+    "main.b6611227.css.map": "/urnaEletronica/static/css/main.b6611227.css.map",
+    "main.6987dd57.js.map": "/urnaEletronica/static/js/main.6987dd57.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9179120.css",
-    "static/js/main.3fe5fa08.js"
+    "static/css/main.b6611227.css",
+    "static/js/main.6987dd57.js"
   ]
 }
