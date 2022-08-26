@@ -11,9 +11,12 @@ const presidentNumber = createSlice({
     },
     clearNumber(state) {
       state.number = ''
+    },
+    setNumber(state, { payload }) {
+      state.number = payload
     }
   }
 })
 
-export const { clearNumber, addNumber } = presidentNumber.actions
+export const { clearNumber, addNumber, setNumber } = presidentNumber.actions
 export default presidentNumber.reducer

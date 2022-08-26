@@ -10,19 +10,16 @@ import { clearNumber } from '../../Redux/store/PresidentNumber.store'
 // Data
 import { candidates, Candidate } from '../../assets/candidatesData'
 
-interface Props {
-  number: string
-}
-
 const initialState: Candidate = {
-  number: '00',
-  name: 'NOME',
-  party: 'PARTIDO',
-  vice: 'VICE',
-  presImg: 'https://picsum.photos/200/300'
+  number: '--',
+  name: 'VOTO NULO',
+  party: 'VOTO NULO',
+  vice: 'VOTO NULO',
+  presImg: 'https://picsum.photos/200/300',
+  viceImg: 'https://picsum.photos/200'
 }
 
-export const President: React.FC<React.PropsWithChildren<Props>> = props => {
+export const President: React.FC = () => {
   const [currentCandidate, setCurrentCandidate] = useState<
     Candidate | undefined
   >(initialState)
@@ -37,7 +34,6 @@ export const President: React.FC<React.PropsWithChildren<Props>> = props => {
     if (stage === 0) {
       const items = document.querySelectorAll('.dummy')
       items.forEach(node => node.classList.add('hide'))
-      console.log(items)
       dispatch(clearNumber())
     } else if (stage === 1) {
       getCandidateData()
@@ -117,7 +113,11 @@ export const President: React.FC<React.PropsWithChildren<Props>> = props => {
           <div className='viceImageItem'>
             <img
               id='vice-presidentPicture'
-              src='https://picsum.photos/200'
+              src={
+                currentCandidate?.viceImg
+                  ? currentCandidate.viceImg
+                  : initialState.viceImg
+              }
               alt='vide-president'
             />
             <label htmlFor='vice-presidentPicture'>Vice-Presidente</label>
