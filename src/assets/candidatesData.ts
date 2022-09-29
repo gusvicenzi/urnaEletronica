@@ -9,7 +9,7 @@ import sofiaImg from './images/candidates/sofia.png'
 import veraImg from './images/candidates/veralucia.jpg'
 import sorayaImg from './images/candidates/soraya.jpg'
 import marcalImg from './images/candidates/marcal.jpg'
-import robertoImg from './images/candidates/roberto.jpg'
+import padreImg from './images/candidates/padreKelmon.jpg'
 
 import bragaImg from './images/vices/bragaNetto.jpg'
 import geraldoImg from './images/vices/geraldoAlckmin.jpg'
@@ -22,7 +22,7 @@ import antonioImg from './images/vices/antonioAlves.jpg'
 import raquelImg from './images/vices/raquelTremembe.jpg'
 import marcosImg from './images/vices/marcosCintra.jpg'
 import fatimaImg from './images/vices/fatimaPerolaNeggra.jpeg'
-import padreImg from './images/vices/padreKelmon.jpg'
+import luizGamonal from './images/vices/luizGamonal.jpeg'
 
 export interface Candidate {
   number: string
@@ -130,10 +130,10 @@ export const candidates: Candidate[] = [
   },
   {
     number: '14',
-    name: 'Roberto Jefferson',
+    name: 'Padre Kelmon',
     party: 'Partido Trabalhista Brasileiro',
-    vice: 'Padre Kelmon',
-    presImg: robertoImg,
-    viceImg: padreImg
+    vice: 'Luiz Claudio Medeiros da Fonseca Gamonal',
+    presImg: padreImg,
+    viceImg: luizGamonal
   }
 ]
